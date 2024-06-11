@@ -13,7 +13,7 @@
   <p>
     <a href="index.html">home</a>
   </p>
-
+test
   <h1>Functions</h1>
 
   <p>Functions should be familar to you from math. JavaScript has functions, too but they have a different syntax.</p>
@@ -33,7 +33,7 @@
     is the value of the fuction at <code>x=20</code></p>
 
   <p>The x axis and y axis could represent many things. In this case, we can say x is days and y is cash. If we start
-    with 5 dolars and we sell one ice cream cone a day at $0.25 a piece, our total cash will be $15 after 40 days.</p>
+    with 5 dollars and we sell one ice cream cone a day at $0.25 a piece, our total cash will be $15 after 40 days.</p>
 
   <p>A function is a way to say all of this in one line.</p>
 
@@ -53,7 +53,8 @@
   <p>POP QUIZ: what is the value at x=20?</p>
   <pre>
     f(20) = 20 * .25 + 5
-    f(20) = ?
+    f(20) = 5 + 5
+    f(20) = 10
   </pre>
 
   <p>I hope you can see the power of functions here!</p>
@@ -92,11 +93,13 @@
     For x = 20...
     f(x) =
     <script>
+      y3 = f(20);
+      document.write(y3);
     </script>
   </p>
   <h3>Example 2</h3>
   <p>Let's make a new function. We will call it g(x).</p>
-  <p> Our ice cream shop raised it's prices to $5 for one cone. We still sell one cone a day. We still start with $5.
+  <p> Our ice cream shop raised it's prices to $2 for one cone. We still sell one cone a day. We still start with $5.
     Our new function looks like this: </p>
   <pre>
     g(x) = 2 * x + 5;
@@ -139,7 +142,7 @@
     </script>
   </p>
   <p>
-    For x = 5...
+    For x = 10...
     g(x) =
     <script>
       z2 = g(10);
@@ -151,24 +154,26 @@
     For x = 15...
     g(x) =
     <script>
-      z3 = g();
-      document.write();
+      z3 = g(15);
+      document.write(z3);
     </script>
   </p>
   <h4> TODO: You try this one! </h4>
   <p>
     For x = 21...
-    g(x) = ?
+    g(x) = 
     <script>
-
+      z4 = g(21);
+      document.write(z4);
     </script>
   </p>
   <h4> TODO: You try this one! </h4>
   <p>
     For x = 1001...
-    g(x) = ?
+    g(x) = 
     <script>
-
+      z5 = g(1001);
+      document.write(z5);
     </script>
   </p>
 
@@ -176,6 +181,11 @@
   <p> If you've gotten this far, try and do one better! The ice cream shop is lowering it's prices to $1.50 a cone.
     Write a function that will calculate the cash that the shop has earned after x days. Then caclulate that for 5, 10,
     15, 21 and 1001 days.</p>
+
+    <script>
+      
+
+    </script>
 
   <h4>TODO: You try this one!</h4>
   <p> In the space bellow, write the html tags and javascript code to make your functions. Write the code to write the
